@@ -40,7 +40,7 @@ class RecaptchaServiceProvider extends ServiceProvider
             $challenge = app('Input')->get($captcha->getResponseKey());
 
             return $captcha->check($challenge, $value);
-        }, 'Please ensure that you are a human!');
+        }, 'Por favor, confirma que eres humano!');
     }
 
     /**
