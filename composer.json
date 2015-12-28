@@ -2,7 +2,7 @@
     "name": "greysama/recaptcha",
     "description": "reCAPTCHA Validator for Laravel 5",
 	"keywords": ["recaptcha", "captcha", "laravel", "laravel5"],
-	"homepage": "http://github.com/greysama/recaptcha",
+	"homepage": "http://github.com/greggilbert/recaptcha",
 	"license": "MIT",
     "authors": [
         {
@@ -21,11 +21,5 @@
         "psr-4": {
             "Greggilbert\\Recaptcha\\": "src/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.1-dev"
-        }
-    },
-    "minimum-stability": "stable"
+    }
 }
